@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Lievre_Nguyen)(type KiCad)(uri "D:/INSA/3A/BE Elec/3IMACS_grpC/LibAmpli_3imacs/CmpAmpliAudio.pretty/Lievre_Nguyen.pretty")(options "")(descr ""))
+  (lib (name CmpAmpliAudio)(type KiCad)(uri "D:/INSA/3A/BE Elec/3IMACS_grpC/LibAmpli_3imacs/CmpAmpliAudio.pretty")(options "")(descr ""))
+)
