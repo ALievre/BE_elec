@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Buck 45V vers 24/12V 13A"
+Date "2020-03-24"
+Rev "V0"
+Comp "INSA GEI"
+Comment1 "AL"
 Comment2 ""
 Comment3 ""
 Comment4 ""
