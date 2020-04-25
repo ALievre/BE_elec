@@ -1,4 +1,4 @@
-16963236522312809
+16964874587132633
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6159,6 +6159,13 @@ Resistor Axial_DIN0516 series Axial Horizontal pin pitch 20.32mm 2W length 15.5m
 0
 2
 2
+CmpAmpliAudio
+Relais_112LMH2
+
+
+0
+4
+4
 CmpAmpliAudio
 TO-18-3
 TO-18-3

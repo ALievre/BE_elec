@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Buck 45V vers 24/12V 13A"
-Date "2020-03-24"
-Rev "V0"
+Title "Ampli"
+Date "2020-04-10"
+Rev "V1"
 Comp "INSA GEI"
 Comment1 "AL"
 Comment2 ""
@@ -63,7 +63,7 @@ U 1 1 5E62811A
 P 8750 3700
 F 0 "D1" H 8750 3916 50  0000 C CNN
 F 1 "1N4148" H 8750 3825 50  0000 C CNN
-F 2 "CmpAmpliAudio:D_DO-35_SOD27_P10.16mm_Horizontal" H 8750 3525 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8750 3525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8750 3700 50  0001 C CNN
 	1    8750 3700
 	0    -1   1    0   
@@ -74,7 +74,7 @@ U 1 1 5E628B27
 P 6100 2000
 F 0 "Q9" H 6292 2046 50  0000 L CNN
 F 1 "BD139" H 6292 1955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6300 1925 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-126-3_Vertical" H 6300 1925 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 6100 2000 50  0001 L CNN
 	1    6100 2000
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5E64F2C5
 P 1700 6950
 F 0 "C7" H 1815 6996 50  0000 L CNN
 F 1 "100n" H 1815 6905 50  0000 L CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 1738 6800 50  0001 C CNN
+F 2 "CmpAmpliAudio:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1738 6800 50  0001 C CNN
 F 3 "~" H 1700 6950 50  0001 C CNN
 	1    1700 6950
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 5E64FB30
 P 1700 6300
 F 0 "C5" H 1815 6346 50  0000 L CNN
 F 1 "100n" H 1815 6255 50  0000 L CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 1738 6150 50  0001 C CNN
+F 2 "CmpAmpliAudio:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1738 6150 50  0001 C CNN
 F 3 "~" H 1700 6300 50  0001 C CNN
 	1    1700 6300
 	1    0    0    -1  
@@ -597,7 +597,7 @@ U 1 1 5E6A4807
 P 5000 2500
 F 0 "Q8" H 5192 2546 50  0000 L CNN
 F 1 "BD139" H 5192 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5200 2425 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-126-3_Vertical" H 5200 2425 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5000 2500 50  0001 L CNN
 	1    5000 2500
 	1    0    0    -1  
@@ -641,7 +641,7 @@ U 1 1 5E6B3BE8
 P 7400 1450
 F 0 "C9" H 7515 1496 50  0000 L CNN
 F 1 "100n" H 7515 1405 50  0000 L CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 7438 1300 50  0001 C CNN
+F 2 "CmpAmpliAudio:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7438 1300 50  0001 C CNN
 F 3 "~" H 7400 1450 50  0001 C CNN
 	1    7400 1450
 	1    0    0    -1  
@@ -685,7 +685,7 @@ U 1 1 5E6C24FF
 P 6100 3650
 F 0 "Q11" H 6292 3696 50  0000 L CNN
 F 1 "BD138" H 6292 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6300 3575 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-126-3_Vertical" H 6300 3575 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 6100 3650 50  0001 L CNN
 	1    6100 3650
 	1    0    0    -1  
@@ -707,7 +707,7 @@ U 1 1 5E6C7249
 P 7650 4250
 F 0 "C11" H 7765 4296 50  0000 L CNN
 F 1 "100n" H 7765 4205 50  0000 L CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 7688 4100 50  0001 C CNN
+F 2 "CmpAmpliAudio:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7688 4100 50  0001 C CNN
 F 3 "~" H 7650 4250 50  0001 C CNN
 	1    7650 4250
 	1    0    0    -1  
@@ -795,7 +795,7 @@ U 1 1 5E6E8D2E
 P 9850 4550
 F 0 "D2" H 9850 4766 50  0000 C CNN
 F 1 "1N4148" H 9850 4675 50  0000 C CNN
-F 2 "CmpAmpliAudio:D_DO-35_SOD27_P10.16mm_Horizontal" H 9850 4375 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9850 4375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9850 4550 50  0001 C CNN
 	1    9850 4550
 	1    0    0    1   
@@ -1046,10 +1046,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 3250 8750 3550
 Wire Wire Line
-	9950 2850 10400 2850
-Wire Wire Line
-	9950 3250 10100 3250
-Wire Wire Line
 	8750 3850 9150 3850
 Wire Wire Line
 	9150 3850 9150 4350
@@ -1107,7 +1103,7 @@ U 1 1 5E6B88C4
 P 6550 1500
 F 0 "Q10" H 6741 1546 50  0000 L CNN
 F 1 "TIP32" H 6741 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 6550 1500 50  0001 L CNN
 	1    6550 1500
 	1    0    0    -1  
@@ -1127,7 +1123,7 @@ U 1 1 5E6EFCF2
 P 6550 4350
 F 0 "Q12" H 6741 4396 50  0000 L CNN
 F 1 "TIP31" H 6741 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6800 4275 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-220-3_Vertical" H 6800 4275 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 6550 4350 50  0001 L CNN
 	1    6550 4350
 	1    0    0    -1  
@@ -1150,17 +1146,6 @@ Connection ~ 8450 2850
 Wire Wire Line
 	9150 3250 9350 3250
 $Comp
-L Ampli-rescue:Relay_DIPxx-1Axx-11x-Ampli-cache U1
-U 1 1 5E6CB02F
-P 9650 3050
-F 0 "U1" V 10117 3050 50  0000 C CNN
-F 1 "Relay_1CT" V 10026 3050 50  0000 C CNN
-F 2 "Lievre_Nguyen:Relay_1CT" H 10000 3000 50  0001 L CNN
-F 3 "" H 9650 3050 50  0001 C CNN
-	1    9650 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Ampli-rescue:Device_D_Zener_ALT-Ampli-cache Dz1
 U 1 1 5E6C2B5B
 P 2100 1300
@@ -1176,4 +1161,19 @@ Wire Wire Line
 Connection ~ 10100 3250
 Wire Wire Line
 	1700 3900 1700 4150
+Wire Wire Line
+	9950 2850 10400 2850
+Wire Wire Line
+	9950 3250 10100 3250
+$Comp
+L Ampli-rescue:Relay1_Relay_1CT-Ampli-cache U1
+U 1 1 5E9F58B6
+P 9300 3050
+F 0 "U1" V 9767 2700 50  0000 C CNN
+F 1 "Relay1_Relay_1CT" V 9676 2700 50  0000 C CNN
+F 2 "CmpAmpliAudio:Relais_112LMH2" H 9300 3050 50  0001 C CNN
+F 3 "" H 9300 3050 50  0001 C CNN
+	1    9300 3050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

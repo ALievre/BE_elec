@@ -23,6 +23,34 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Relay1_Relay_1CT-Ampli-cache
+#
+DEF Relay1_Relay_1CT-Ampli-cache U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Relay1_Relay_1CT-Ampli-cache" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 -150 300 -550 1 1 10 f
+S -325 -275 -75 -425 1 1 10 N
+P 2 1 1 10 -300 -425 -100 -275 N
+P 2 1 1 0 -200 -550 -200 -425 N
+P 2 1 1 0 -200 -150 -200 -275 N
+P 2 1 1 10 -75 -350 -50 -350 N
+P 2 1 1 10 -25 -350 0 -350 N
+P 2 1 1 10 25 -350 50 -350 N
+P 2 1 1 10 75 -350 100 -350 N
+P 2 1 1 10 125 -350 150 -350 N
+P 2 1 1 20 200 -450 125 -200 N
+P 2 1 1 0 200 -450 200 -550 N
+P 4 1 1 0 200 -150 200 -250 175 -225 200 -200 N
+X ~ b1 -200 -50 100 D 50 50 1 1 P
+X ~ b2 -200 -650 100 U 50 50 1 1 P
+X ~ c1 200 -50 100 D 50 50 1 1 P
+X ~ c2 200 -650 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Relay_DIPxx-1Axx-11x-Ampli-cache
 #
 DEF Relay_DIPxx-1Axx-11x-Ampli-cache K 0 20 N Y 1 F N
