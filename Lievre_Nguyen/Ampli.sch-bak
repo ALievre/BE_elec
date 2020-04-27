@@ -188,8 +188,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 6050 2150 6150
 Wire Wire Line
-	1750 6700 2150 6700
-Wire Wire Line
 	2150 6700 2150 6800
 Wire Wire Line
 	2150 6450 2150 6700
@@ -406,8 +404,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 1000 3900 1100
 Connection ~ 3650 1000
-Wire Wire Line
-	3900 1400 3900 1500
 $Comp
 L Device:Q_PNP_EBC Q6
 U 1 1 5E668848
@@ -463,11 +459,6 @@ F 3 "~" H 3900 2700 50  0001 C CNN
 	1    3900 2700
 	-1   0    0    -1  
 $EndComp
-Connection ~ 3900 1500
-Wire Wire Line
-	3900 1500 3900 1650
-Wire Wire Line
-	5100 1500 5100 1650
 Wire Wire Line
 	2350 3050 2800 3050
 Wire Wire Line
@@ -501,9 +492,6 @@ F 3 "" H 4000 5250 50  0001 C CNN
 	1    4000 5250
 	1    0    0    1   
 $EndComp
-Connection ~ 5100 1500
-Wire Wire Line
-	5100 1400 5100 1500
 $Comp
 L Device:R R7
 U 1 1 5E669817
@@ -623,12 +611,12 @@ $EndComp
 $Comp
 L Mechanical:Heatsink HS1
 U 1 1 5E6AD543
-P 6800 1500
-F 0 "HS1" H 6942 1621 50  0000 L TNN
-F 1 "Heatsink" H 6942 1530 50  0000 L TNN
-F 2 "CmpAmpliAudio:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" H 6812 1500 50  0001 C CNN
-F 3 "~" H 6812 1500 50  0001 C CNN
-	1    6800 1500
+P 7050 1500
+F 0 "HS1" H 7192 1621 50  0000 L TNN
+F 1 "Heatsink" H 7192 1530 50  0000 L TNN
+F 2 "CmpAmpliAudio:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" H 7062 1500 50  0001 C CNN
+F 3 "~" H 7062 1500 50  0001 C CNN
+	1    7050 1500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -684,7 +672,7 @@ F 1 "BD138" H 6292 3605 50  0000 L CNN
 F 2 "CmpAmpliAudio:TO-126-3_Vertical" H 6300 3575 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 6100 3650 50  0001 L CNN
 	1    6100 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Mechanical:Heatsink HS2
@@ -1084,17 +1072,6 @@ F 3 "" H 850 3500 50  0001 C CNN
 	1    800  3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:TIP41 Q10
-U 1 1 5E6B88C4
-P 6550 1500
-F 0 "Q10" H 6741 1546 50  0000 L CNN
-F 1 "TIP32" H 6741 1455 50  0000 L CNN
-F 2 "CmpAmpliAudio:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
-F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 6550 1500 50  0001 L CNN
-	1    6550 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6650 1200 6650 1300
 Connection ~ 6650 1200
@@ -1171,4 +1148,21 @@ Wire Wire Line
 	3250 5000 4000 5000
 Wire Wire Line
 	3750 3400 3750 5600
+Wire Wire Line
+	3900 1400 3900 1650
+Wire Wire Line
+	5100 1400 5100 1500
+Wire Wire Line
+	1700 6700 2150 6700
+$Comp
+L Transistor_BJT:TIP42 Q10
+U 1 1 5EAA567E
+P 6550 1500
+F 0 "Q10" H 6741 1454 50  0000 L CNN
+F 1 "TIP32" H 6741 1545 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 6550 1500 50  0001 L CNN
+	1    6550 1500
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
