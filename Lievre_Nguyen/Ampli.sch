@@ -1149,8 +1149,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 3400 3750 5600
 Wire Wire Line
-	3900 1400 3900 1650
-Wire Wire Line
 	5100 1400 5100 1500
 Wire Wire Line
 	1700 6700 2150 6700
@@ -1164,5 +1162,41 @@ F 2 "CmpAmpliAudio:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 6550 1500 50  0001 L CNN
 	1    6550 1500
 	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3900 1400 3900 1500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EBE207B
+P 7450 3750
+F 0 "#FLG0101" H 7450 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 7450 3923 50  0000 C CNN
+F 2 "" H 7450 3750 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 3750
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EBEF198
+P 1400 7250
+F 0 "#FLG0102" H 1400 7325 50  0001 C CNN
+F 1 "PWR_FLAG" V 1400 7377 50  0000 L CNN
+F 2 "" H 1400 7250 50  0001 C CNN
+F 3 "~" H 1400 7250 50  0001 C CNN
+	1    1400 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5EBF02A2
+P 1400 6050
+F 0 "#FLG?" H 1400 6125 50  0001 C CNN
+F 1 "PWR_FLAG" V 1400 6177 50  0000 L CNN
+F 2 "" H 1400 6050 50  0001 C CNN
+F 3 "~" H 1400 6050 50  0001 C CNN
+	1    1400 6050
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

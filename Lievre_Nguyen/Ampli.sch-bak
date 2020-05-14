@@ -1160,7 +1160,7 @@ U 1 1 5EAA567E
 P 6550 1500
 F 0 "Q10" H 6741 1454 50  0000 L CNN
 F 1 "TIP32" H 6741 1545 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
+F 2 "CmpAmpliAudio:TO-220-3_Vertical" H 6800 1425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 6550 1500 50  0001 L CNN
 	1    6550 1500
 	1    0    0    1   
